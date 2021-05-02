@@ -9,3 +9,5 @@ Growth mindset is when people believe that their most basic abilities can be dev
 - Mistakes are an important part of the process.
 
 For more information click on this link: [Growth Mindset](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
+
+[Go to page 2](Markdown.md)
