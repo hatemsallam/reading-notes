@@ -6,3 +6,4 @@ Markdown is a way to style text on the web. You control the display of the docum
 - you can add link by putting the word you want to link between brackets [] and then putting the link between two arches ()
 
 You can know more about markdown following this link: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+[go to read01 page](README.md)
