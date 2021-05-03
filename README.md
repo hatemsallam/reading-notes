@@ -5,4 +5,4 @@ Hello, my name is Hatem Sallam I'm 26 years old. Iv'e graduated from Al-balqa' A
  | Content      | Link |
 | ----------- | ----------- |
 | Read01      | [Read01 link](Read01.md)       |
-| Read02   | Text        |
+| Read02   | [Read02 link](Read02.md)       |
