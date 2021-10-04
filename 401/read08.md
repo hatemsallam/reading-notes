@@ -1,42 +1,23 @@
-# SOLID 
+# OO Design
 
-## SOLID : stands for the five principles in OOD that considers maintaining , refactoring , debugging , avoid code smells principles .
+## Don't repeat yourself 
 
-
-## S - Single-responsiblity Principle :
-- A class should have one reason to change (one functionalitiy) .
-
-- Each class should be concerened about it's own funcionality only .
-
-- In real life imagine important tasks that depends on unrelated tasks .
-
-## O - Open-closed Principle : Objects or instances should be open for extension and closed for modification .
-- That means we should be able to extend the class without modifiying it .
-
-- To come across Open closed principle Interfaces should be implemented .
-
-- When using interfaces functionality can be extended without modifiying the class itself .
-
-- extending the bilities in phone without having the access to modify it .
+The DRY principle is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system". The principle has been formulated by Andy Hunt and Dave Thomas in their book The Pragmatic Programmer. They apply it quite broadly to include "database schemas, test plans, the build system, even documentation". When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements. Additionally, elements that are logically related all change predictably and uniformly, and are thus kept in sync. Besides using methods and subroutines in their code, Thomas and Hunt rely on code generators, automatic build systems, and scripting languages to observe the DRY principle across layers.
 
 
-## L - Liskov Substitution Principle : Every derived class can be substituted from it's parent class .
-- The child class should be combatible with it's parent functionality and that what is liskov principle is about .
+## Rule of three (computer programming)
 
-- Ensures that each child class is able to implement the parents attitude and behavior .
+Rule of three ("Three strikes and you refactor") is a code refactoring rule of thumb to decide when similar pieces of code should be refactored to avoid duplication. It states that two instances of similar code do not require refactoring, but when similar code is used three times, it should be extracted into a new procedure. The rule was popularised by Martin Fowler in Refactoring[1] and attributed to Don Roberts.
 
+Duplication is considered a bad practice in programming because it makes the code harder to maintain. When the rule encoded in a replicated piece of code changes, whoever maintains the code will have to change it in all places correctly.
 
-## I - Interface Segregation Principle :You shouldn't force a user to implement useless methods which he wouldn't use .
-- Making interfaces can divide the task into the classes that needs it .
+However, choosing an appropriate design to avoid duplication might benefit from more examples to see patterns in. Attempting premature refactoring risks selecting a wrong abstraction, which can result in worse code as new requirements emerge and will eventually need to be refactored again.
 
-- Making interfaces serves a specific group or classes .
-
-- Managing the attitude of classes by interfaces .
-
-- It's about depending on smaller useful interface other than one big interface and implementing each method when using it or not .
+The rule implies that the cost of maintenance certainly outweighs the cost of refactoring and potential bad design when there are three copies, and may or may not if there are only two copies.
 
 
-## D - Dependency Inversion Principle : Entities should be abstracted and decoupled .
-- both high level and low level modules depends on abstraction .
+## Minimum viable product
 
-- This principle is concerned with abstraction and not counting on another class or (sub classes ) .
+A minimum viable product (MVP) is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development.
+
+A focus on releasing an MVP means that developers potentially avoid lengthy and (ultimately) unnecessary work. Instead, they iterate on working versions and respond to feedback, challenging and validating assumptions about a product's requirements. The term was coined and defined in 2001 by Frank Robinson and then popularized by Steve Blank and Eric Ries. It may also involve carrying out market analysis beforehand. The MVP is analogous to experimentation in the scientific method applied in the context of validating business hypotheses. It is utilized so that prospective entrepreneurs would know whether a given business idea would actually be viable and profitable by testing the assumptions behind a product or business idea. The concept can be used to validate a market need for a product and for incremental developments of an existing product. As it tests a potential business model to customers to see how the market would react, it is especially useful for new/startup companies who are more concerned with finding out where potential business opportunities exist rather than executing a prefabricated, isolated business model.
